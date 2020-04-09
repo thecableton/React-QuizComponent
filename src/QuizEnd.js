@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class QuizEnd extends Component {
     handleResetClick() {
-        this.props.resetClickHandler(this.handleResetClick.bind(this));
+        this.props.resetClickHandler();
     }
     render() {
         return (
