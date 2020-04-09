@@ -12,7 +12,7 @@ class Quiz extends React.Component {
 
     handleResetClick() {
         this.props.resetClickHandler();
-        this.setState({quiz_position=1});
+        this.setState({quiz_position: 1});
     }
 
     showNextQuestion() {
